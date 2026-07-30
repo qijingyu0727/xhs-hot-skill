@@ -17,3 +17,12 @@
 - 事实：Owner C 报告误改了 `/Users/qixiaoc/Code/mani/local-tests/ai-skills-starter-xhs/` 下的 `POST.md`、`index.html`、`CONTENT_STYLE.md`、`RESEARCH.md`，未执行 Git 操作。
 - 处置：根流程不读取、不继续修改，也不在缺少可靠基线时猜测回滚；Owner C 后续仅允许写本仓库的 `data/shards/c.jsonl` 与 6 个 scene 文件。
 - 影响：这 4 个文件不属于 `xhs-hot-skill` 交付物，不会进入仓库或安装包；用户如需恢复，应基于该目录自己的版本历史处理。
+
+## 2026-07-30 · 最终审计中 Guizang validator 当前环境复跑中断（已解除）
+
+- 解决：按用户“缺什么就装”的授权安装与当前 Playwright 匹配的 Chromium，再用仓库内临时模块解析器调用未修改的外部 validator。
+- 结果：AI 工具、办公效率、旅行攻略、生活方式、产品测评五套均为 `0 fails`；每套仅有 5 个 R5 密度 WARN，属于 validator 明确标注的 advisory，不影响退出码。
+
+- 连续三次执行环境失败：外部 validator 目录无法解析 `playwright`；首次改道误用了 `/tmp` 而实际 `os.tmpdir()` 位于 `/var/folders/...`；修正路径后发现当前 Playwright 版本缺少对应 Chromium Headless Shell。
+- 当时处置：按“三次失败换项”规则先停止同路径重试；没有修改 Guizang 源码、validator、测试判断或图片来规避问题。
+- 最终证据：安装匹配浏览器后，五套演示均取得当前态 `0 fails`；validator 与验收脚本 SHA256 继续为 `OK`，远端安装副本的语料、Skill、74 项测试、README 链接及 1080×1440 尺寸也已通过。
