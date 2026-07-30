@@ -1,0 +1,12 @@
+{
+  "slug": "ai-tools",
+  "accent": "ikb",
+  "label": "AI TOOLS · HOT TOPICS",
+  "pages": [
+    {"type":"cover","kicker":"热点篇 · Skill Map","title":["追 AI 热点","别只刷信息流"],"lead":"把发现、核验、中文语境和最终归纳拆开，工具才不会越装越乱。","tags":["先看大盘","再找原话","最后成稿"]},
+    {"type":"matrix","kicker":"Roles · 角色","title":["五个角色","一条链路"],"cells":["世界事件扫盘","AI 日报筛选","跨平台找来源","海外近况复盘","中文讨论补充","人工交叉核验"],"accent":2,"bottom_label":"不是数量","bottom_text":"每个 Skill 只负责一个判断。"},
+    {"type":"compare","kicker":"Scope · 分工","title":["先发现","再核实"],"columns":[{"label":"DISCOVER","heading":"哪里有变化","body":"先看全球事件和 AI 日报，判断这件事值不值得继续追。"},{"label":"VERIFY","heading":"原话是什么","body":"再回到网页、社媒和视频来源，补时间、上下文与反方观点。"}],"decision_label":"组合原则","decision":"大盘工具不替代原始来源；搜索工具也不替你下结论。"},
+    {"type":"ledger","kicker":"Before Install · 安装前","title":["先查四件事"],"rows":[{"number":"01","label":"来源","sub":"仓库、作者、许可证"},{"number":"02","label":"更新","sub":"最近提交与维护状态"},{"number":"03","label":"权限","sub":"脚本会访问什么"},{"number":"04","label":"密钥","sub":"先用测试账号和测试数据"}]},
+    {"type":"close","kicker":"Takeaway · 结论","title":["少装一点","判断多一点"],"lead":"好的热点工作流不是把消息搬回来，而是让每一步都有来源、有边界。","points":["发现：先判断是否值得追","核验：保留原始链接和日期","表达：只写证据支持的结论"]}
+  ]
+}

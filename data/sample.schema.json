@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "XHS Hot Skill research sample",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "scene",
+    "scene_label",
+    "title",
+    "source_url",
+    "platform",
+    "author",
+    "published_at",
+    "collected_at",
+    "engagement",
+    "evidence_grade",
+    "source_access",
+    "title_pattern",
+    "opening_pattern",
+    "body_pattern",
+    "visual_pattern",
+    "action_value",
+    "risk_notes",
+    "derived_pattern",
+    "rights"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+-[0-9]{2}$" },
+    "scene": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "scene_label": { "type": "string", "minLength": 2, "maxLength": 20 },
+    "title": { "type": "string", "minLength": 2, "maxLength": 100 },
+    "source_url": { "type": "string", "format": "uri", "maxLength": 500 },
+    "platform": {
+      "enum": ["xiaohongshu", "wechat", "weibo", "bilibili", "zhihu", "douyin", "toutiao", "web", "other"]
+    },
+    "author": { "type": "string", "minLength": 1, "maxLength": 100 },
+    "published_at": {
+      "anyOf": [
+        { "const": "unknown" },
+        { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+      ]
+    },
+    "collected_at": { "const": "2026-07-30" },
+    "engagement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["likes", "collections", "comments", "shares"],
+      "properties": {
+        "likes": { "type": ["integer", "null"], "minimum": 0 },
+        "collections": { "type": ["integer", "null"], "minimum": 0 },
+        "comments": { "type": ["integer", "null"], "minimum": 0 },
+        "shares": { "type": ["integer", "null"], "minimum": 0 }
+      }
+    },
+    "evidence_grade": {
+      "enum": ["verified-high-engagement", "quality-reference", "trend-reference", "counterexample"]
+    },
+    "source_access": { "enum": ["direct", "search-snippet", "metadata-only"] },
+    "title_pattern": { "type": "string", "minLength": 2, "maxLength": 240 },
+    "opening_pattern": { "type": "string", "minLength": 2, "maxLength": 240 },
+    "body_pattern": { "type": "string", "minLength": 2, "maxLength": 240 },
+    "visual_pattern": { "type": "string", "minLength": 2, "maxLength": 240 },
+    "action_value": { "type": "string", "minLength": 2, "maxLength": 240 },
+    "risk_notes": { "type": "string", "minLength": 1, "maxLength": 240 },
+    "derived_pattern": { "type": "string", "minLength": 2, "maxLength": 280 },
+    "rights": { "const": "metadata-and-derived-analysis-only" }
+  }
+}

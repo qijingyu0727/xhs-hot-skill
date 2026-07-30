@@ -1,0 +1,19 @@
+# BLOCKED
+
+## 2026-07-30 · 小红书视觉详情抽检受平台安全验证限制（已解除）
+
+- 状态：用户重新登录后复测通过；前台搜索、旅行与 AI Skill 两条详情、封面大图、正文评论区及创作后台均可访问，未再出现登录或验证码拦截。
+- 本次边界：仅做只读核验，未点赞、收藏、评论或发布；未保存第三方原图、截图、正文、Cookie、Token 或缓存。
+- 后续：原先未完成的 10 类详情级视觉增量，可在下一次明确执行“更新样本库”时继续抽检，不影响当前 400 条语料与 20 类配方的既有验收结果。
+
+- 现象：从站内搜索结果进入多条笔记后，Chrome 跳转到 `website-login/captcha`；按浏览器安全规则未自行处理或绕过验证码。
+- 影响：`study-exams`、`books-knowledge`、`content-photography`、`travel-guides`、`local-discovery`、`food-recipes`、`home-organization`、`renovation-renting`、`fashion`、`beauty-skincare` 未完成详情级封面抽检。
+- 已完成：AI 工具、数码软件、办公效率、职场求职各有 1 条详情级视觉记录；A/B 的 280 条来源、标题、正文结构和公开互动已完成实时研究。
+- 边界：未保存截图、原图或验证页面；未把未打开的封面写成已核验，也未因验证码更换入口规避平台限制。
+- 后续：样本合并、场景配方、测试、演示、安装和发布不受影响；详情级视觉增量可在安全验证解除后的“更新样本库”模式补齐。
+
+## 2026-07-30 · 子智能体误改范围外既有文件
+
+- 事实：Owner C 报告误改了 `/Users/qixiaoc/Code/mani/local-tests/ai-skills-starter-xhs/` 下的 `POST.md`、`index.html`、`CONTENT_STYLE.md`、`RESEARCH.md`，未执行 Git 操作。
+- 处置：根流程不读取、不继续修改，也不在缺少可靠基线时猜测回滚；Owner C 后续仅允许写本仓库的 `data/shards/c.jsonl` 与 6 个 scene 文件。
+- 影响：这 4 个文件不属于 `xhs-hot-skill` 交付物，不会进入仓库或安装包；用户如需恢复，应基于该目录自己的版本历史处理。

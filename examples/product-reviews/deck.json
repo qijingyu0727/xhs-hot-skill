@@ -1,0 +1,12 @@
+{
+  "slug": "product-reviews",
+  "accent": "safety-orange",
+  "label": "REVIEW · BUYING DECISION",
+  "pages": [
+    {"type":"cover","kicker":"测评篇 · Honest Review","title":["先说谁别买","再谈值不值"],"lead":"一篇可信测评，应该先给使用条件、评价标准和没有验证的部分。","tags":["适合谁","哪里妥协","证据够不够"]},
+    {"type":"matrix","kicker":"Criteria · 评价标准","title":["六个维度","同场比较"],"cells":["核心任务","真实成本","上手门槛","稳定表现","维护负担","退出成本"],"accent":0,"bottom_label":"先定标准","bottom_text":"结论不能早于测试。"},
+    {"type":"compare","kicker":"Verdict · 结论","title":["优点清楚","代价也要清楚"],"columns":[{"label":"BUY","heading":"条件刚好匹配","body":"核心任务高频发生，产品优势能稳定解决，成本也在可接受范围。"},{"label":"SKIP","heading":"需求只是偶尔","body":"替代方案已经够用，新增学习、订阅或维护成本反而更高。"}],"decision_label":"判断句","decision":"不是产品好不好，而是它是否值得进入你的工作和生活。"},
+    {"type":"ledger","kicker":"Evidence · 证据","title":["发布前四问"],"rows":[{"number":"01","label":"时间","sub":"测试了多久、在哪些场景"},{"number":"02","label":"对照","sub":"和什么方案比较"},{"number":"03","label":"失败","sub":"哪些情况下没有解决"},{"number":"04","label":"关系","sub":"是否赠送、返佣或赞助"}]},
+    {"type":"close","kicker":"Takeaway · 结论","title":["推荐之前","先把边界写完"],"lead":"好测评不是替所有人做决定，而是把判断条件交给读者。","points":["事实来自真实测试或可靠来源","不确定的内容明确标注","利益关系和素材来源主动说明"]}
+  ]
+}

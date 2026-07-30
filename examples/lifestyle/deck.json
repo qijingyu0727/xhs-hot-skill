@@ -1,0 +1,12 @@
+{
+  "slug": "lifestyle",
+  "accent": "lemon-green",
+  "label": "LIFESTYLE · WEEKEND RESET",
+  "pages": [
+    {"type":"cover","kicker":"生活篇 · Reset","title":["周末重启","先清三处"],"lead":"不要从全屋大扫除开始。先处理每天都会碰到、最容易让人烦的地方。","tags":["桌面","洗手台","明天的包"]},
+    {"type":"matrix","kicker":"Zones · 三处空间","title":["先处理","高频区域"],"cells":["桌面只留当前任务","洗手台清空过期物","门口收好钥匙鞋包","脏衣一次归位","垃圾及时带走","补齐常用消耗品"],"accent":2,"bottom_label":"不是极简","bottom_text":"目标是明天更顺手。"},
+    {"type":"compare","kicker":"Method · 方法","title":["一次清空","还是每天可用"],"columns":[{"label":"PERFECT","heading":"追求一次到位","body":"任务很大，容易在分类和购买收纳用品上耗掉整个周末。"},{"label":"DAILY","heading":"先恢复动线","body":"只处理最常用的动作，让拿、放、洗、出门都少一个阻碍。"}],"decision_label":"停止条件","decision":"空间已经能支持明天的生活，就可以停下，不必继续扩张任务。"},
+    {"type":"ledger","kicker":"15 Minutes · 小步骤","title":["四段就够"],"rows":[{"number":"03m","label":"扔","sub":"垃圾与明确过期物"},{"number":"04m","label":"归位","sub":"只收当前区域的东西"},{"number":"05m","label":"擦拭","sub":"恢复可直接使用的表面"},{"number":"03m","label":"准备","sub":"把明天第一件事放好"}]},
+    {"type":"close","kicker":"Takeaway · 结论","title":["整理不是表演","是减少摩擦"],"lead":"空间不用像样板间。只要它愿意配合你的日常，就已经够好了。","points":["优先处理每天都会经过的地方","先用现有容器，不急着购买","留下可持续的小动作"]}
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {"id":"ai-tools","label":"AI 工具","recipe":"ai-tools.md","keywords":["AI工具","AI 工具","agent skill","skill分享","智能体","ChatGPT","Claude","Codex","提示词"]},
+  {"id":"digital-software","label":"数码软件","recipe":"digital-software.md","keywords":["数码","软件","手机","电脑","平板","系统设置","App","插件"]},
+  {"id":"office-productivity","label":"办公效率","recipe":"office-productivity.md","keywords":["办公","会议纪要","Excel","PPT","Word","邮件","表格","工作流"]},
+  {"id":"career-job-search","label":"职场求职","recipe":"career-job-search.md","keywords":["职场","求职","面试","简历","跳槽","升职","沟通","工作汇报"]},
+  {"id":"study-exams","label":"学习考试","recipe":"study-exams.md","keywords":["学习","考试","备考","复习","考研","考公","四六级","错题"]},
+  {"id":"books-knowledge","label":"读书知识","recipe":"books-knowledge.md","keywords":["读书","书单","阅读","知识","概念","框架","笔记法","通识"]},
+  {"id":"content-photography","label":"内容创作摄影","recipe":"content-photography.md","keywords":["摄影","拍照","构图","剪辑","创作","自媒体","修图","视频脚本"]},
+  {"id":"travel-guides","label":"旅行攻略","recipe":"travel-guides.md","keywords":["旅行","旅游","攻略","行程","路线","机票","酒店","景点"]},
+  {"id":"local-discovery","label":"本地探店","recipe":"local-discovery.md","keywords":["探店","餐厅","咖啡店","城市周末","本地","新店","点单","排队"]},
+  {"id":"food-recipes","label":"美食食谱","recipe":"food-recipes.md","keywords":["食谱","做法","菜谱","烘焙","早餐","晚餐","料理","配方"]},
+  {"id":"home-organization","label":"家居收纳","recipe":"home-organization.md","keywords":["收纳","家居","整理","清洁","房间改造","衣柜","厨房整理","断舍离"]},
+  {"id":"renovation-renting","label":"装修租房","recipe":"renovation-renting.md","keywords":["装修","租房","买房","合同","硬装","软装","避坑","户型"]},
+  {"id":"fashion","label":"穿搭","recipe":"fashion.md","keywords":["穿搭","搭配","显高","通勤装","衣服","裙子","鞋子","配色"]},
+  {"id":"beauty-skincare","label":"美妆护肤","recipe":"beauty-skincare.md","keywords":["美妆","护肤","化妆","底妆","防晒","口红","敏感肌","成分"]},
+  {"id":"fitness-fat-loss","label":"健身减脂","recipe":"fitness-fat-loss.md","keywords":["健身","减脂","训练","跑步","力量","体重管理","塑形","运动"]},
+  {"id":"health-wellness","label":"健康养生","recipe":"health-wellness.md","keywords":["健康","养生","睡眠","症状","疼痛","体检","营养","就医"]},
+  {"id":"emotional-growth","label":"情绪成长","recipe":"emotional-growth.md","keywords":["情绪","成长","焦虑","内耗","边界感","自洽","关系","疗愈"]},
+  {"id":"parenting","label":"亲子育儿","recipe":"parenting.md","keywords":["育儿","亲子","宝宝","孩子","儿童","早教","喂养","睡眠训练"]},
+  {"id":"personal-finance","label":"理财消费","recipe":"personal-finance.md","keywords":["理财","预算","存钱","基金","保险","消费决策","记账","性价比"]},
+  {"id":"product-reviews","label":"好物测评","recipe":"product-reviews.md","keywords":["测评","好物","开箱","使用体验","值不值得买","横评","参数对比","回购"]}
+]

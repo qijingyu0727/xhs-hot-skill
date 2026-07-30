@@ -1,0 +1,4 @@
+interface:
+  display_name: "XHS Hot Skill"
+  short_description: "输入一个选题，生成小红书文案、轮播结构与高对比视觉方案"
+  default_prompt: "Use $xhs-hot-skill to turn my topic into distinct Xiaohongshu copy and visual directions."

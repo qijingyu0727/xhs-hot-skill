@@ -1,0 +1,12 @@
+{
+  "slug": "travel-guides",
+  "accent": "lemon-yellow",
+  "label": "TRAVEL · 48 HOURS",
+  "pages": [
+    {"type":"cover","kicker":"旅行篇 · Slow Route","title":["第一次去","别把行程排满"],"lead":"一座陌生城市的 48 小时，先留出移动、吃饭和临时改变的时间。","tags":["每天一条主线","同区集中走","预留空白段"]},
+    {"type":"matrix","kicker":"Route · 路线骨架","title":["六个时段","三种节奏"],"cells":["抵达与安顿","上午主景点","附近午餐","下午慢逛","日落与晚餐","自由补漏"],"accent":4,"bottom_label":"示意路线","bottom_text":"这是排程方法，不是具体城市攻略。"},
+    {"type":"compare","kicker":"Choice · 取舍","title":["看得多","还是走得稳"],"columns":[{"label":"FULL","heading":"一天跨三片区","body":"景点很多，但交通、排队和找路会不断切碎体验。"},{"label":"FOCUS","heading":"一天只走一区","body":"把主要地点、餐食和散步放在附近，临时变化也更容易处理。"}],"decision_label":"适合第一次","decision":"先选一个必须去，再选两个顺路点；其余都放进候补。"},
+    {"type":"ledger","kicker":"Before Go · 出发前","title":["四个确认"],"rows":[{"number":"01","label":"开放时间","sub":"以官方当天信息为准"},{"number":"02","label":"移动耗时","sub":"给换乘和步行留余量"},{"number":"03","label":"天气体力","sub":"及时删掉低优先级地点"},{"number":"04","label":"退改规则","sub":"车票、酒店、预约分别核对"}]},
+    {"type":"close","kicker":"Takeaway · 结论","title":["好行程","允许你改主意"],"lead":"攻略负责减少不确定，不负责把每一分钟塞满。","points":["主线清楚：今天为什么来这里","备选就近：临时变化不用重排","事实复核：开放、交通、价格看当天"]}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "xhs-hot-skill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-corpus.mjs && node scripts/validate-skill.mjs && node --test && node scripts/check-readme-links.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "^1.62.0"
+  }
+}

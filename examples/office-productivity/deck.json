@@ -1,0 +1,12 @@
+{
+  "slug": "office-productivity",
+  "accent": "safety-orange",
+  "label": "OFFICE · MEETING NOTES",
+  "pages": [
+    {"type":"cover","kicker":"办公篇 · Meeting","title":["会开完了","先别急着写纪要"],"lead":"先分清决定、行动和待确认，纪要才不是一段没人看的流水账。","tags":["决定什么","谁来行动","何时确认"]},
+    {"type":"matrix","kicker":"Inputs · 会中记录","title":["只记六类","关键信息"],"cells":["议题","结论","负责人","截止时间","未决问题","证据链接"],"accent":1,"bottom_label":"会议记录","bottom_text":"信息不全就标待确认，不替别人补结论。"},
+    {"type":"compare","kicker":"Rewrite · 改写","title":["流水账","还是行动单"],"columns":[{"label":"RAW","heading":"谁说了什么","body":"适合回溯上下文，但信息多、责任和时间点容易被淹没。"},{"label":"ACTION","heading":"接下来做什么","body":"按决定、负责人、时间和依赖重排，读者一眼知道自己的动作。"}],"decision_label":"保留原则","decision":"原话只在存在争议或需要追责时保留，其余内容压缩成事实。"},
+    {"type":"ledger","kicker":"Final Check · 发出前","title":["四项自查"],"rows":[{"number":"01","label":"主语","sub":"每个动作都有负责人"},{"number":"02","label":"时间","sub":"截止日期没有模糊词"},{"number":"03","label":"证据","sub":"附件和链接能打开"},{"number":"04","label":"异议","sub":"待确认内容没有写成结论"}]},
+    {"type":"close","kicker":"Takeaway · 结论","title":["纪要不是记录","是下一步"],"lead":"真正有用的纪要，让没参会的人也能看懂发生了什么、现在要做什么。","points":["决定单独列，不藏在段落里","行动写负责人和截止时间","不确定就标注，不替团队猜"]}
+  ]
+}
